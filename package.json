@@ -1,0 +1,26 @@
+{
+  "name": "ecommerceshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeoSx/eCommerce-mern.git"
+  },
+  "keywords": [
+    "eCommerce",
+    "Shop"
+  ],
+  "author": "Damir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeoSx/eCommerce-mern/issues"
+  },
+  "homepage": "https://github.com/DeoSx/eCommerce-mern#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
