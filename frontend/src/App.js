@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
+import Home from './pages/Home'
+
 import Header from './components/modules/Header'
 import Footer from './components/modules/Footer'
 
@@ -10,7 +12,7 @@ const App = () => {
       <Header />
       <main className="py-3">
         <Container>
-          <h1>eCommerce</h1>
+          <Home />
         </Container>
       </main>
       <Footer />
