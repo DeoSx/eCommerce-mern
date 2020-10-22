@@ -11,7 +11,6 @@ router.get(
   '/',
   asyncHandler(async (_, res) => {
     const products = await Product.find({})
-
     res.json(products)
   })
 )
