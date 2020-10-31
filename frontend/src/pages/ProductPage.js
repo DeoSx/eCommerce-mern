@@ -11,7 +11,7 @@ import Message from '../components/UI/Message'
 import Rating from '../components/UI/Rating'
 
 const ProductPage = ({ match, history }) => {
-  const [qty, setQty] = useState(0)
+  const [qty, setQty] = useState(1)
 
   const dispatch = useDispatch()
   const detailsOfProduct = useSelector((state) => state.productList)
